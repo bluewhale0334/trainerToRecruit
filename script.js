@@ -79,7 +79,7 @@ const centerData = {
     note: "",
     address: "서울 마포구 월드컵북로38길 14",
     email: "daum.w.wellness@gmail.com",
-    phone: "010-3564-0911",
+    phone: "010-5260-8913",
     manager: "정준석",
     images: [
       "https://i.postimg.cc/cL079CZ6/seongsan-(1).jpg",
