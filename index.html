@@ -8,27 +8,27 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container header-inner">
-        <div class="logo-area">
-          <img src="https://i.postimg.cc/HkfG7t3n/layer-MC0.jpg" alt="셀프메이드짐 로고" />
+        <div class="container header-inner">
+          <div class="logo-area">
+            <img src="https://i.postimg.cc/HkfG7t3n/layer-MC0.jpg" alt="셀프메이드짐 로고" />
+          </div>
         </div>
-      </div>
     </header>
 
     <main>
       <section class="hero">
         <div class="container hero-inner">
-          <h1 class="hero-title">한계 없는 성장 <br>셀프메이드짐과 함께 하세요</h1>
+          <h1 class="hero-title typing" data-text="한계 없는 성장&#10;셀프메이드짐과 함께 하세요"></h1>
         </div>
       </section>
 
       <section class="empathy">
         <div class="container">
           <div class="empathy-images">
-            <img src="https://i.postimg.cc/nL6LrpbC/1.png" alt="공감 이미지 4" />
-            <img src="https://i.postimg.cc/cJVJC0yv/2.png" alt="공감 이미지 2" />
-            <img src="https://i.postimg.cc/jjGj2t0C/3.png" alt="공감 이미지 1" />
-            <img src="https://i.postimg.cc/nL6Lrpbz/4.png" alt="공감 이미지 3" />
+            <img class="empathy-img left" src="https://i.postimg.cc/nL6LrpbC/1.png" alt="공감 이미지 4" />
+            <img class="empathy-img right" src="https://i.postimg.cc/cJVJC0yv/2.png" alt="공감 이미지 2" />
+            <img class="empathy-img left" src="https://i.postimg.cc/jjGj2t0C/3.png" alt="공감 이미지 1" />
+            <img class="empathy-img right" src="https://i.postimg.cc/nL6Lrpbz/4.png" alt="공감 이미지 3" />
           </div>
         </div>
       </section>
@@ -229,13 +229,13 @@
               <div class="center-slider">
                 <div class="center-track" id="centerTrack">
                   <div class="center-slide">
-                    <img src="IMAGE_URL_HERE" alt="센터 사진" />
+                    <img src="" alt="센터 사진" />
                   </div>
                   <div class="center-slide">
-                    <img src="IMAGE_URL_HERE" alt="센터 사진" />
+                    <img src="" alt="센터 사진" />
                   </div>
                   <div class="center-slide">
-                    <img src="IMAGE_URL_HERE" alt="센터 사진" />
+                    <img src="" alt="센터 사진" />
                   </div>
                 </div>
               </div>
@@ -243,15 +243,17 @@
           </div>
 
           <div class="center-map">
-            <img src="IMAGE_URL_HERE" alt="서울 지도" />
+            <span class="center-map-label">지점 위치</span>
+            <img src="https://i.postimg.cc/YqsGgS9y/jido.png" alt="서울 지도" />
           </div>
         </div>
       </section>
 
       <section class="apply">
         <div class="container">
-          <p class="section-lead">지원을 원하시면 아래 폼을 작성해주십시오.</p>
-          <form class="apply-form" id="applyForm">
+
+          <button type="button" class="apply-toggle" id="applyToggle">지원하기</button>
+          <form class="apply-form is-hidden" id="applyForm">
             <div class="form-grid">
               <label>
                 <span>성함</span>
@@ -259,7 +261,16 @@
               </label>
               <label>
                 <span>성별</span>
-                <input type="text" name="gender" required />
+                <div class="radio-group">
+                  <label class="radio-item">
+                    <input type="radio" name="gender" value="남" required />
+                    <span>남</span>
+                  </label>
+                  <label class="radio-item">
+                    <input type="radio" name="gender" value="여" required />
+                    <span>여</span>
+                  </label>
+                </div>
               </label>
               <label>
                 <span>연락처</span>
@@ -297,6 +308,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
