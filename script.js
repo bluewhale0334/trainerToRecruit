@@ -42,7 +42,7 @@ const centerData = {
     address: "서울 마포구 월드컵로 61 지층",
     email: "selfmadegym@naver.com",
     phone: "010-9610-5190",
-    manager: "담당자 정승원",
+    manager: "정승원",
     images: [
       "https://i.postimg.cc/t4QW1T7Z/mang-won-(1).jpg",
       "https://i.postimg.cc/y8m90HS0/mang-won-(10).jpg",
@@ -62,7 +62,7 @@ const centerData = {
     address: "서울 서대문구 연희로 185 지층",
     email: "selfmadegym2@naver.com",
     phone: "010-8470-5190",
-    manager: "담당자 유승민",
+    manager: "유승민",
     images: [
       "https://i.postimg.cc/PrzYwHD4/yeonhui-(1).jpg",
       "https://i.postimg.cc/DydLXhGB/yeonhui-(2).jpg",
@@ -80,7 +80,7 @@ const centerData = {
     address: "서울 마포구 월드컵북로38길 14",
     email: "daum.w.wellness@gmail.com",
     phone: "010-3564-0911",
-    manager: "담당자 정준석",
+    manager: "정준석",
     images: [
       "https://i.postimg.cc/cL079CZ6/seongsan-(1).jpg",
       "https://i.postimg.cc/52gBZJNy/seongsan-(2).jpg",
