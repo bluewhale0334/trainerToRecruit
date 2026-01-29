@@ -60,7 +60,7 @@ const centerData = {
     name: "셀프메이드짐 - 연희점",
     note: "",
     address: "서울 서대문구 연희로 185 지층",
-    email: "selmadegym2@naver.com",
+    email: "selfmadegym2@naver.com",
     phone: "010-8470-5190",
     manager: "담당자 유승민",
     images: [
@@ -78,8 +78,8 @@ const centerData = {
     name: "다움 - 여성전용헬스장",
     note: "",
     address: "서울 마포구 월드컵북로38길 14",
-    email: "selfmadegym3@naver.com",
-    phone: "010-9110-5190",
+    email: "daum.w.wellness@gmail.com",
+    phone: "010-3564-0911",
     manager: "담당자 정준석",
     images: [
       "https://i.postimg.cc/cL079CZ6/seongsan-(1).jpg",
