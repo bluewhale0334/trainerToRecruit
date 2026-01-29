@@ -732,6 +732,12 @@ ul {
   color: #666;
 }
 
+.input-note {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 400;
+}
+
 .radio-group {
   display: flex;
   gap: 0.6rem;
